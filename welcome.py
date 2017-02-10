@@ -22,7 +22,7 @@ def Welcome():
     return app.send_static_file('index.html')
 
 @app.route('/myapp')
-def WelcomeToMyapp():
+def srom():
     return 'Welcome again to my app running on Bluemix!'
 
 @app.route('/srom')
